@@ -1,0 +1,3 @@
+/home/miri/my_project/build/CMakeFiles/rebuild_cache.dir
+/home/miri/my_project/build/CMakeFiles/edit_cache.dir
+/home/miri/my_project/build/CMakeFiles/MyExecutable.dir

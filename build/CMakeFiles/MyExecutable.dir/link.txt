@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/MyExecutable.dir/src/main.cpp.o CMakeFiles/MyExecutable.dir/src/math.cpp.o CMakeFiles/MyExecutable.dir/src/input_output.cpp.o  -o MyExecutable 
