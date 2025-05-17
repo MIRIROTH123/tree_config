@@ -3,11 +3,11 @@
 
 CMakeFiles/MyExecutable.dir/src/input_output.cpp.o
  ../include/input_output.h
- /home/miri/my_project/src/input_output.cpp
+ /home/miri/tree_config/src/input_output.cpp
 CMakeFiles/MyExecutable.dir/src/main.cpp.o
  ../include/input_output.h
  ../include/math.h
- /home/miri/my_project/src/main.cpp
+ /home/miri/tree_config/src/main.cpp
 CMakeFiles/MyExecutable.dir/src/math.cpp.o
  ../include/math.h
- /home/miri/my_project/src/math.cpp
+ /home/miri/tree_config/src/math.cpp

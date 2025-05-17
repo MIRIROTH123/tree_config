@@ -6,9 +6,27 @@
 
 #IncludeRegexTransform: 
 
+../include/input_output.h
+string
+-
+
 ../include/math.h
 
-/home/miri/my_project/src/math.cpp
+/home/miri/tree_config/src/input_output.cpp
+input_output.h
+/home/miri/tree_config/src/input_output.h
+iostream
+-
+
+/home/miri/tree_config/src/main.cpp
 math.h
-/home/miri/my_project/src/math.h
+/home/miri/tree_config/src/math.h
+input_output.h
+/home/miri/tree_config/src/input_output.h
+iostream
+-
+
+/home/miri/tree_config/src/math.cpp
+math.h
+/home/miri/tree_config/src/math.h
 

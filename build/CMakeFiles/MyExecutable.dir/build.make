@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/miri/my_project
+CMAKE_SOURCE_DIR = /home/miri/tree_config
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/miri/my_project/build
+CMAKE_BINARY_DIR = /home/miri/tree_config/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MyExecutable.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/MyExecutable.dir/flags.make
 
 CMakeFiles/MyExecutable.dir/src/main.cpp.o: CMakeFiles/MyExecutable.dir/flags.make
 CMakeFiles/MyExecutable.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/miri/my_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyExecutable.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyExecutable.dir/src/main.cpp.o -c /home/miri/my_project/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/miri/tree_config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyExecutable.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyExecutable.dir/src/main.cpp.o -c /home/miri/tree_config/src/main.cpp
 
 CMakeFiles/MyExecutable.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyExecutable.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/miri/my_project/src/main.cpp > CMakeFiles/MyExecutable.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/miri/tree_config/src/main.cpp > CMakeFiles/MyExecutable.dir/src/main.cpp.i
 
 CMakeFiles/MyExecutable.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyExecutable.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/miri/my_project/src/main.cpp -o CMakeFiles/MyExecutable.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/miri/tree_config/src/main.cpp -o CMakeFiles/MyExecutable.dir/src/main.cpp.s
 
 CMakeFiles/MyExecutable.dir/src/math.cpp.o: CMakeFiles/MyExecutable.dir/flags.make
 CMakeFiles/MyExecutable.dir/src/math.cpp.o: ../src/math.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/miri/my_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyExecutable.dir/src/math.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyExecutable.dir/src/math.cpp.o -c /home/miri/my_project/src/math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/miri/tree_config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyExecutable.dir/src/math.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyExecutable.dir/src/math.cpp.o -c /home/miri/tree_config/src/math.cpp
 
 CMakeFiles/MyExecutable.dir/src/math.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyExecutable.dir/src/math.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/miri/my_project/src/math.cpp > CMakeFiles/MyExecutable.dir/src/math.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/miri/tree_config/src/math.cpp > CMakeFiles/MyExecutable.dir/src/math.cpp.i
 
 CMakeFiles/MyExecutable.dir/src/math.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyExecutable.dir/src/math.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/miri/my_project/src/math.cpp -o CMakeFiles/MyExecutable.dir/src/math.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/miri/tree_config/src/math.cpp -o CMakeFiles/MyExecutable.dir/src/math.cpp.s
 
 CMakeFiles/MyExecutable.dir/src/input_output.cpp.o: CMakeFiles/MyExecutable.dir/flags.make
 CMakeFiles/MyExecutable.dir/src/input_output.cpp.o: ../src/input_output.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/miri/my_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyExecutable.dir/src/input_output.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyExecutable.dir/src/input_output.cpp.o -c /home/miri/my_project/src/input_output.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/miri/tree_config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyExecutable.dir/src/input_output.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyExecutable.dir/src/input_output.cpp.o -c /home/miri/tree_config/src/input_output.cpp
 
 CMakeFiles/MyExecutable.dir/src/input_output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyExecutable.dir/src/input_output.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/miri/my_project/src/input_output.cpp > CMakeFiles/MyExecutable.dir/src/input_output.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/miri/tree_config/src/input_output.cpp > CMakeFiles/MyExecutable.dir/src/input_output.cpp.i
 
 CMakeFiles/MyExecutable.dir/src/input_output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyExecutable.dir/src/input_output.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/miri/my_project/src/input_output.cpp -o CMakeFiles/MyExecutable.dir/src/input_output.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/miri/tree_config/src/input_output.cpp -o CMakeFiles/MyExecutable.dir/src/input_output.cpp.s
 
 # Object files for target MyExecutable
 MyExecutable_OBJECTS = \
@@ -110,7 +110,7 @@ MyExecutable: CMakeFiles/MyExecutable.dir/src/math.cpp.o
 MyExecutable: CMakeFiles/MyExecutable.dir/src/input_output.cpp.o
 MyExecutable: CMakeFiles/MyExecutable.dir/build.make
 MyExecutable: CMakeFiles/MyExecutable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/miri/my_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MyExecutable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/miri/tree_config/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MyExecutable"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyExecutable.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/MyExecutable.dir/clean:
 .PHONY : CMakeFiles/MyExecutable.dir/clean
 
 CMakeFiles/MyExecutable.dir/depend:
-	cd /home/miri/my_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/miri/my_project /home/miri/my_project /home/miri/my_project/build /home/miri/my_project/build /home/miri/my_project/build/CMakeFiles/MyExecutable.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/miri/tree_config/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/miri/tree_config /home/miri/tree_config /home/miri/tree_config/build /home/miri/tree_config/build /home/miri/tree_config/build/CMakeFiles/MyExecutable.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MyExecutable.dir/depend
 

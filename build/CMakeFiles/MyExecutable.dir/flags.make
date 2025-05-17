@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/miri/my_project/include 
+CXX_INCLUDES = -I/home/miri/tree_config/include 
 

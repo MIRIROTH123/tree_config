@@ -1,4 +1,4 @@
-# Install script for directory: /home/miri/my_project
+# Install script for directory: /home/miri/tree_config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/miri/my_project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/miri/tree_config/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/miri/my_project/src/input_output.cpp" "/home/miri/my_project/build/CMakeFiles/MyExecutable.dir/src/input_output.cpp.o"
-  "/home/miri/my_project/src/main.cpp" "/home/miri/my_project/build/CMakeFiles/MyExecutable.dir/src/main.cpp.o"
-  "/home/miri/my_project/src/math.cpp" "/home/miri/my_project/build/CMakeFiles/MyExecutable.dir/src/math.cpp.o"
+  "/home/miri/tree_config/src/input_output.cpp" "/home/miri/tree_config/build/CMakeFiles/MyExecutable.dir/src/input_output.cpp.o"
+  "/home/miri/tree_config/src/main.cpp" "/home/miri/tree_config/build/CMakeFiles/MyExecutable.dir/src/main.cpp.o"
+  "/home/miri/tree_config/src/math.cpp" "/home/miri/tree_config/build/CMakeFiles/MyExecutable.dir/src/math.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
